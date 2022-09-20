@@ -1,0 +1,67 @@
+$primary: rgb(243, 243, 243);
+$success: rgba(169, 255, 130, 0.808);
+$info: rgb(255, 218, 115);
+
+$display-font-sizes: (
+  1: 6rem,
+  6: 0.7rem,
+);
+
+$spacer: 1rem;
+$spacers: (
+  5: $spacer * 4,
+);
+
+$black: rgb(17, 16, 16);
+
+#registro{
+  border-radius: none;
+}
+
+.nav{
+  font-size: 20px;
+}
+
+.titulo{
+  color: $info;
+  width: 540px;
+}
+
+
+.fila2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fila3{
+  background-image: url(../img/fondo\ marmol\ negro.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.fila4{
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 28px
+}
+
+.footer{
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
